@@ -103,6 +103,9 @@
     .timeline-item {
       position: relative;
       margin-bottom: 1.5rem;
+      background-color: #e8efff; /* Added background color */
+      padding: 1rem;
+      border-radius: 6px;
     }
 
     .timeline-item::before {
@@ -115,6 +118,19 @@
       background-color: #4f46e5;
       border-radius: 50%;
       border: 3px solid white;
+    }
+
+    /* Different background for education and work experience */
+    .education .timeline-item {
+      background-color: #d1e7ff;
+    }
+
+    .work-experience .timeline-item {
+      background-color: #e3f2fd;
+    }
+
+    .achievements .timeline-item {
+      background-color: #e8f5e9;
     }
 
     @media (max-width: 600px) {
@@ -145,12 +161,12 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section education">
       <h2>Education</h2>
       <div class="timeline">
         <div class="timeline-item">
           <strong>National University of Mongolia</strong><br />
-          B.Sc. in Software Engineering – Expected 2027<br />
+          B.Sc. in Software Engineer – Expected 2027<br />
           GPA: 3.7 / 4.0
         </div>
       </div>
@@ -179,7 +195,7 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section work-experience">
       <h2>Work Experience</h2>
       <div class="timeline">
         <div class="timeline-item">
@@ -200,7 +216,7 @@
       </div>
     </div>
 
-    <div class="section">
+    <div class="section achievements">
       <h2>Achievements & Activities</h2>
       <div class="timeline">
         <div class="timeline-item">1st place-Arts Festival of Branch School</div>
