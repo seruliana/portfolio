@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV - Saruulchimeg Tserendorj</title>
+  <title>Professional CV - Saruulchimeg Tserendorj</title>
   <style>
     * {
       box-sizing: border-box;
@@ -26,20 +26,20 @@
       box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     }
 
-    h1, h2 {
+    h1, h2, h3 {
+      margin-bottom: 0.5rem;
       color: #2e3a59;
     }
 
     h1 {
       font-size: 2.5rem;
-      text-align: center;
     }
 
     h2 {
+      margin-top: 2rem;
       font-size: 1.4rem;
       border-bottom: 1px solid #e0e0e0;
       padding-bottom: 0.3rem;
-      margin-top: 2rem;
     }
 
     .header {
@@ -58,6 +58,7 @@
     }
 
     .contact-info {
+      margin-top: 0.5rem;
       font-size: 0.95rem;
       color: #555;
     }
@@ -84,55 +85,6 @@
       font-size: 0.9rem;
     }
 
-    .card {
-      background-color: #f9fafb;
-      border: 1px solid #e5e7eb;
-      border-radius: 8px;
-      padding: 1rem 1.2rem;
-      margin-bottom: 1rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-    }
-
-    .timeline {
-      position: relative;
-      margin: 2rem 0;
-      padding-left: 2rem;
-      border-left: 3px solid #4f46e5;
-    }
-
-    .timeline-item {
-      position: relative;
-      margin-bottom: 1.5rem;
-      background-color: #e8efff; /* Added background color */
-      padding: 1rem;
-      border-radius: 6px;
-    }
-
-    .timeline-item::before {
-      content: "";
-      position: absolute;
-      left: -9px;
-      top: 0;
-      width: 16px;
-      height: 16px;
-      background-color: #4f46e5;
-      border-radius: 50%;
-      border: 3px solid white;
-    }
-
-    /* Different background for education and work experience */
-    .education .timeline-item {
-      background-color: #d1e7ff;
-    }
-
-    .work-experience .timeline-item {
-      background-color: #e3f2fd;
-    }
-
-    .achievements .timeline-item {
-      background-color: #e8f5e9;
-    }
-
     @media (max-width: 600px) {
       .container {
         padding: 1.5rem;
@@ -156,20 +108,17 @@
 
     <div class="section">
       <h2>Professional Summary</h2>
-      <div class="card">
+      <p>
         Motivated and detail-oriented Software Engineering student with strong foundation in software development, algorithms, and data analysis. Passionate about building inclusive technology that solves real-world problems.
-      </div>
+      </p>
     </div>
 
-    <div class="section education">
+    <div class="section">
       <h2>Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <strong>National University of Mongolia</strong><br/>
-          B.Sc. in Software Engineer-Expected 2027<br />
-          GPA: 3.7 / 4.0
-        </div>
-      </div>
+      <p><strong>National University of Mongolia</strong><br />
+        B.Sc. in Sofware Engineering – Expected 2027<br />
+        GPA: 3.7 / 4.0
+      </p>
     </div>
 
     <div class="section">
@@ -177,53 +126,50 @@
       <div class="skills-grid">
         <div class="skill">Python</div>
         <div class="skill">C</div>
-        <div class="skill">HTML/CSS</div>
         <div class="skill">SQL</div>
         <div class="skill">MySQL</div>
+        <div class="skill">MongoDB</div>
+        <div class="skill">HTML</div>
         <div class="skill">Java</div>
+        <div class="skill">C++</div>
       </div>
     </div>
 
     <div class="section">
       <h2>Personal Projects & Interests</h2>
-      <div class="card">
-        <ul>
-          <li>Educational software prototype for rural children in Mongolia</li>
-          <li>Exploring UI/UX design for intuitive learning platforms</li>
-          <li>Interested in smart city concepts (energy, infrastructure)</li>
-        </ul>
-      </div>
+      <ul>
+        <li>Currently planning a simple educational software prototype for rural children in Mongolia</li>
+        <li>Exploring UI/UX design for more intuitive learning platforms</li>
+        <li>Interested in smart city concepts, particularly energy efficiency and digital infrastructure</li>
+      </ul>
     </div>
 
-    <div class="section work-experience">
+    <div class="section">
       <h2>Work Experience</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <strong>Receptionist (Part-time)</strong><br />
-          <em>Mongolia-Japan Center</em> – April 2025 to Present
-        </div>
-      </div>
+      <p><strong>Receptionist (Part-time)</strong><br />
+        <em>Mongolia-Japan Center, Ulaanbaatar</em> – April 2025 to Present
+      </p>
     </div>
 
     <div class="section">
       <h2>Languages</h2>
-      <div class="card">
-        <ul>
-          <li><strong>Mongolian:</strong> Native</li>
-          <li><strong>English:</strong> Fluent (IELTS 7.0)</li>
-          <li><strong>Japanese:</strong> Beginner</li>
-        </ul>
-      </div>
+      <ul>
+        <li>Mongolian – Native</li>
+        <li>English – Fluent</li>
+        <li>Japanese – Beginner</li>
+      </ul>
     </div>
 
-    <div class="section achievements">
+    <div class="section">
       <h2>Achievements & Activities</h2>
-      <div class="timeline">
-        <div class="timeline-item">1st place-Arts Festival of Branch School</div>
-        <div class="timeline-item">3rd place-National Arts Festival, Traditional Performing Arts</div>
-        <div class="timeline-item">Member-Student Council (2023-2024): Organized sign language training</div>
-        <div class="timeline-item">Community Volunteer-Education events</div>
-      </div>
+      <ul>
+        <li>Successfully adapted to university-level programming and system design despite a rural background</li>
+        <li>Actively participates in academic discussions and teamwork at the university</li>
+        <li>Volunteered for local community events, focusing on education</li>
+        <li>Participated in the Arts Festival of the Branch School and won 1st place</li>
+        <li>Represented in the National Arts Festival organized by the National University of Mongolia and achieved 3rd place in the traditional performing arts category</li>
+        <li>Active Member, Student Council of the Branch School (Fall 2023-Fall 2024) Organized beginner-level sign language training sessions during the membership period</li>
+      </ul>
     </div>
   </div>
 </body>
