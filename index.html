@@ -5,10 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Professional CV - Saruulchimeg Tserendorj</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
+    * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: 'Inter', 'Segoe UI', sans-serif;
@@ -16,7 +13,6 @@
       color: #333;
       line-height: 1.6;
     }
-
     .container {
       max-width: 900px;
       background: white;
@@ -25,30 +21,20 @@
       border-radius: 10px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.08);
     }
-
-    h1, h2, h3 {
-      margin-bottom: 0.5rem;
-      color: #2e3a59;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-    }
-
+    h1, h2, h3 { margin-bottom: 0.5rem; color: #2e3a59; }
+    h1 { font-size: 2.5rem; }
     h2 {
       margin-top: 2rem;
       font-size: 1.4rem;
       border-bottom: 1px solid #e0e0e0;
       padding-bottom: 0.3rem;
     }
-
     .header {
       display: flex;
       flex-direction: column;
       align-items: center;
       text-align: center;
     }
-
     .header img {
       width: 120px;
       height: 120px;
@@ -56,50 +42,44 @@
       object-fit: cover;
       margin-bottom: 1rem;
     }
-
     .contact-info {
       margin-top: 0.5rem;
       font-size: 0.95rem;
       color: #555;
     }
-
-    .section {
-      margin-top: 1.5rem;
-    }
-
-    ul {
-      margin: 0.5rem 0 0 1.5rem;
-    }
-
+    .section { margin-top: 1.5rem; }
+    ul { margin: 0.5rem 0 0 1.5rem; }
     .skills-grid {
       display: flex;
       flex-wrap: wrap;
       gap: 0.5rem;
       margin-top: 0.5rem;
     }
-
     .skill {
       background-color: #e0e7ff;
       padding: 0.3rem 0.8rem;
       border-radius: 20px;
       font-size: 0.9rem;
     }
-
+    .cert-list {
+      margin: 0.5rem 0 0 1.2rem;
+    }
+    .meta {
+      color: #6b7280;
+      font-size: 0.95rem;
+    }
     @media (max-width: 600px) {
-      .container {
-        padding: 1.5rem;
-      }
-
-      h1 {
-        font-size: 2rem;
-      }
+      .container { padding: 1.5rem; }
+      h1 { font-size: 2rem; }
+      .header img { width: 100px; height: 100px; }
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
-      <img src="saruula.jpg" alt="saruula" />
+      <!-- Replace saruula.jpg with your photo filename or remove the <img> if you don't want a photo -->
+      <img src="saruula.jpg" alt="Saruulchimeg Tserendorj photo" />
       <h1>Saruulchimeg Tserendorj</h1>
       <div class="contact-info">
         📍 Ulaanbaatar, Mongolia • saruul3339@gmail.com • ☎️ +976 96550006
@@ -109,15 +89,22 @@
     <div class="section">
       <h2>Professional Summary</h2>
       <p>
-        Motivated and detail-oriented Software Engineering student with strong foundation in software development, algorithms, and data analysis. Passionate about building inclusive technology that solves real-world problems.
+        Motivated and detail-oriented Software Engineering student with a strong foundation in software development, algorithms, and data analysis. Passionate about building inclusive technology that solves real-world problems; actively expanding UX design skills and practical product experience.
       </p>
     </div>
 
     <div class="section">
       <h2>Education</h2>
-      <p><strong>National University of Mongolia</strong><br />
-        B.Sc. in Sofware Engineering – Expected 2027<br />
-        GPA: 3.7 / 4.0
+      <p>
+        <strong>National University of Mongolia</strong><br />
+        B.Sc. in Software Engineering – Expected 2027<br />
+        <span class="meta">GPA: 3.7 / 4.0</span>
+      </p>
+
+      <p style="margin-top:0.8rem;">
+        <strong>Grow with Google Mongolia — UX Design Program</strong><br />
+        Completed 2025<br />
+        <span class="meta">Completed the Coursera "UX Design" course and earned a certificate covering user research, wireframing, prototyping, and usability testing.</span>
       </p>
     </div>
 
@@ -138,25 +125,34 @@
     <div class="section">
       <h2>Personal Projects & Interests</h2>
       <ul>
-        <li>Currently planning a simple educational software prototype for rural children in Mongolia</li>
+        <li>Planning a simple educational software prototype for rural children in Mongolia</li>
         <li>Exploring UI/UX design for more intuitive learning platforms</li>
-        <li>Interested in smart city concepts, particularly energy efficiency and digital infrastructure</li>
+        <li>Interested in smart city concepts—energy efficiency and digital infrastructure</li>
       </ul>
     </div>
 
     <div class="section">
       <h2>Work Experience</h2>
-      <p><strong>Receptionist (Part-time)</strong><br />
+      <p>
+        <strong>Receptionist (Part-time)</strong><br />
         <em>Mongolia-Japan Center, Ulaanbaatar</em> – April 2025 to Present
       </p>
     </div>
 
     <div class="section">
+      <h2>Certificates</h2>
+      <ul class="cert-list">
+        <li><strong>Grow with Google Mongolia — UX Design Program</strong> (Coursera certificate) — 2025</li>
+        <li><strong>Huawei — Seeds for the Future</strong> (Talent development flagship project, Certificate of Completion) — 2025</li>
+      </ul>
+    </div>
+
+    <div class="section">
       <h2>Languages</h2>
       <ul>
-        <li>Mongolian - Native</li>
-        <li>English - Fluent</li>
-        <li>Japanese - Beginner</li>
+        <li>Mongolian — Native</li>
+        <li>English — Fluent</li>
+        <li>Japanese — Beginner</li>
       </ul>
     </div>
 
@@ -167,8 +163,8 @@
         <li>Actively participates in academic discussions and teamwork at the university</li>
         <li>Volunteered for local community events, focusing on education</li>
         <li>Participated in the Arts Festival of the Branch School and won 1st place</li>
-        <li>Represented in the National Arts Festival organized by the National University of Mongolia and achieved 3rd place in the traditional performing arts category</li>
-        <li>Active Member, Student Council of the Branch School (Fall 2023-Fall 2024) Organized beginner-level sign language training sessions during the membership period</li>
+        <li>Represented the university at the National Arts Festival and achieved 3rd place (traditional performing arts)</li>
+        <li>Active Member, Student Council of the Branch School (Fall 2023–Fall 2024) — organized beginner-level sign language training sessions</li>
       </ul>
     </div>
   </div>
